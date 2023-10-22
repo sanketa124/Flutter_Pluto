@@ -1,4 +1,4 @@
-# music_player
+# movie_player_app
 
 Flutter Pluto v0.1
 

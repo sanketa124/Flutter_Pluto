@@ -17,7 +17,7 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
-          title: "Playlists".text.makeCentered(),
+          title: "Library ".text.makeCentered(),
           actions: [
             IconButton(
                 onPressed: () {}, icon: const Icon(Icons.more_vert_rounded))
@@ -60,7 +60,7 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
                     fit: BoxFit.cover,
                   )),
                     title: data.title.toString().text.make(),
-                    subtitle: "${data.songsCount} songs".text.make(),
+                    subtitle: "${data.songsCount} movies".text.make(),
                     trailing: Icon(
                       Icons.more_vert,
                       color: MyColors.white,
